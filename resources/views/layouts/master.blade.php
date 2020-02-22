@@ -13,6 +13,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <title>Flooop</title>
 
   <link rel="stylesheet" href="/css/app.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <link rel="stylesheet" type="text/css" href="{{ asset('css/fontawesome.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ asset('css/solid.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ asset('css/light.css') }}">
 
 </head>
 <body class="hold-transition sidebar-mini">
@@ -70,11 +75,21 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                Dashboard
+              </p>
+            </a>
+          </li>
+          
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link active">
               <i class="fas fa-address-card"></i>
               <p>
-                Starter Pages
+                Management
                 <i class="nav-icon fas fa-tachometer-alt"></i>
               </p>
             </a>
@@ -93,14 +108,23 @@ scratch. This page gets rid of all links and provides the needed markup only.
               </li>
             </ul>
           </li>
+
           <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-th"></i>
-              <p>
-                Simple Link
-                <span class="right badge badge-danger">New</span>
-              </p>
-            </a>
+          <a href="#" class="nav-link">
+            <i class="fab fa-500px"></i>
+            <p>
+              Profile
+            </p>
+          </a>
+          </li>
+
+          <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-th"></i>
+            <p>
+              Log Out
+            </p>
+          </a>
           </li>
         </ul>
       </nav>
