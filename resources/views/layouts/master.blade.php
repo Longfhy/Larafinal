@@ -28,7 +28,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- Left navbar links -->
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" data-widget="pushmenu" href="#"><i class="fad fa-bars"></i></a>
+        <a class="nav-link" data-widget="pushmenu" href="#"><i class="fa fa-bars"></i></a>
       </li>
     </ul>
 
@@ -39,7 +39,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
         <div class="input-group-append">
           <button class="btn btn-navbar" type="submit">
-            <i class="fas fa-search"></i>
+            <i class="fa fa-search"></i>
           </button>
         </div>
       </div>
@@ -78,53 +78,46 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
           <li class="nav-item">
             <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-th"></i>
-              <p>
-                Dashboard
-              </p>
+              <i class="nav-icon fa fa-th"></i>
+              
+              <p>Dashboard</p>
             </a>
           </li>
           
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link active">
-              <i class="fas fa-address-card"></i>
-              <p>
-                Management
-                <i class="nav-icon fas fa-tachometer-alt"></i>
-              </p>
+            <i class="nav-icon fa fa-tasks"></i>
+              <p>Management</p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link active">
-                  <i class="nav-icon fas fa-tachometer-alt"></i>
-                  <p>Active Page</p>
+                <a href="#" class="nav-link">
+                <i class="nav-icon fa fa-lock"></i>
+                  <p>Permissions</p>
                 </a>
               </li>
+
               <li class="nav-item">
                 <a href="#" class="nav-link">
-                  <i class="nav-icon fas fa-tachometer-alt"></i>
-                  <p>Inactive Page</p>
+                <i class="nav-icon fa fa-key"></i>
+                  <p>Roles</p>
                 </a>
               </li>
             </ul>
           </li>
 
           <li class="nav-item">
-          <a href="#" class="nav-link">
-            <i class="fab fa-500px"></i>
-            <p>
-              Profile
-            </p>
-          </a>
+            <a href="#" class="nav-link">
+              <i class="nav-icon fa fa-user-circle"></i>
+              <p>Profile</p>
+            </a>
           </li>
 
           <li class="nav-item">
-          <a href="#" class="nav-link">
-            <i class="nav-icon fas fa-th"></i>
-            <p>
-              Log Out
-            </p>
-          </a>
+            <a href="#" class="nav-link">
+              <i class="nav-icon fa fa-sign-out"></i>
+              <p>Log Out</p>
+            </a>
           </li>
         </ul>
       </nav>
