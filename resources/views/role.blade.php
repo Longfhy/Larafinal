@@ -1,16 +1,10 @@
 
 <!DOCTYPE html>
-<!--
-This is a starter template page. Use this page to start your new project from
-scratch. This page gets rid of all links and provides the needed markup only.
--->
-<html lang="en">
+<html>
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-
-  <title>Flooop</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>AdminLTE 3 | Simple Tables</title>
 
   <link rel="stylesheet" href="/css/app.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -22,7 +16,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
-
   <!-- Navbar -->
   <nav class="main-header navbar navbar-expand navbar-white navbar-light">
     <!-- Left navbar links -->
@@ -52,7 +45,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="{{ url('/home') }}" class="brand-link">
+    <a href="index3.html" class="brand-link">
       <img src="./img/flooop.png"  class="brand-image img-rectangle"
            style="opacity:1">
       <span class="brand-text font-weight-light"><h3>Flooop</h3></span>
@@ -129,100 +122,149 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
-    <div class="content-header">
+    <section class="content-header">
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark">Starter Page</h1>
-          </div><!-- /.col -->
+            
+          </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Starter Page</li>
+              <li class="breadcrumb-item active">Roles</li>
             </ol>
-          </div><!-- /.col -->
-        </div><!-- /.row -->
+          </div>
+        </div>
       </div><!-- /.container-fluid -->
-    </div>
-    <!-- /.content-header -->
+    </section>
 
     <!-- Main content -->
-    <div class="content">
+    <section class="content">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the card's
-                  content.
-                </p>
-
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-
-            <div class="card card-primary card-outline">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the card's
-                  content.
-                </p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div><!-- /.card -->
-          </div>
-          <!-- /.col-md-6 -->
-          <div class="col-lg-6">
+          <div class="col-md-12">
             <div class="card">
               <div class="card-header">
-                <h5 class="m-0">Featured</h5>
+                <h3 class="card-title">Role Management</h3>
               </div>
-              <div class="card-body">
-                <h6 class="card-title">Special title treatment</h6>
+              <!-- /.card-header -->
+              <div class="card-body p-0">
+                <table class="table table-condensed">
+                  <thead>
+                    <tr>
+                      <th style="width: 10px">No.</th>
+                      <th style="width: 30%">Name</th>
+                      <th>Role</th>
+                      <th style="width: 15%">Action</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                  <!-- 1st Row -->
+                    <tr>
+                      <td>1.</td>
+                      <td>Seng Longfhy</td>
+                      <td>
+                          Admin
+                      </td>
+                      <td>
+                        <a class="btn btn-primary" >Create</a>
+                        <a class="btn btn-warning" >Edit</a>
+                        <a class="btn btn-danger" >Delete</a>
+                      </td>
+                    </tr>
+                    <!-- 2nd Row -->
+                    <tr>
+                      <td>2.</td>
+                      <td>Ny SreyLen</td>
+                      <td>
+                          Editor
+                      </td>
+                      <td>
+                        <a class="btn btn-primary" >Create</a>
+                        <a class="btn btn-warning" >Edit</a>
+                        <a class="btn btn-danger" >Delete</a>
+                      </td>
+                    </tr>
+                    <!-- 3rd Row -->
+                    <tr>
+                      <td>3.</td>
+                      <td>Loep Tinun</td>
+                      <td>
+                          Editor
+                      </td>
+                      <td>
+                        <a class="btn btn-primary" >Create</a>
+                        <a class="btn btn-warning" >Edit</a>
+                        <a class="btn btn-danger" >Delete</a>
+                      </td>
+                    </tr>
+                    <!-- 4th Row -->
+                    <tr>
+                      <td>4.</td>
+                      <td>Phorn Sovanrath</td>
+                      <td>
+                          Editor
+                      </td>
+                      <td>
+                        <a class="btn btn-primary" >Create</a>
+                        <a class="btn btn-warning" >Edit</a>
+                        <a class="btn btn-danger" >Delete</a>
+                      </td>
+                    </tr>
 
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <tr>
+                      <td>5.</td>
+                      <td>Sath Panhasometh</td>
+                      <td>
+                          Editor
+                      </td>
+                      <td>
+                        <a class="btn btn-primary" >Create</a>
+                        <a class="btn btn-warning" >Edit</a>
+                        <a class="btn btn-danger" >Delete</a>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td>6.</td>
+                      <td>Hak Tong</td>
+                      <td>
+                          Editor
+                      </td>
+                      <td>
+                        <a class="btn btn-primary" >Create</a>
+                        <a class="btn btn-warning" >Edit</a>
+                        <a class="btn btn-danger" >Delete</a>
+                      </td>
+                    </tr>
+
+
+                  </tbody>
+                </table>
               </div>
+              <!-- /.card-body -->
             </div>
-
-            <div class="card card-primary card-outline">
-              <div class="card-header">
-                <h5 class="m-0">Featured</h5>
-              </div>
-              <div class="card-body">
-                <h6 class="card-title">Special title treatment</h6>
-
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
+            <!-- /.card -->
           </div>
-          <!-- /.col-md-6 -->
-        </div>
+          <!-- /.col -->
         <!-- /.row -->
       </div><!-- /.container-fluid -->
-    </div>
+    </section>
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
-
-
-  <!-- Main Footer -->
   <footer class="main-footer">
-    <!-- To the right -->
-    <div class="float-right d-none d-sm-inline">
-      Anything you want
+    <div class="float-right d-none d-sm-block">
+
     </div>
-    <!-- Default to the left -->
-    
+
   </footer>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
 </div>
 <!-- ./wrapper -->
 

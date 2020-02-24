@@ -44,7 +44,9 @@ return [
         ],
 
         'mysql' => [
+
             'driver' => 'mysql',
+            'mysqldump_path' => 'C:\xampp\mysql\bin\mysqldump',
             'url' => env('DATABASE_URL'),
             'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '3306'),

@@ -25,8 +25,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        Role::create(['name'=>'writer']);
-        Permission::create(['name'=>'edit post']);
+        // Role::create(['name'=>'writer']);
+        // Permission::create(['name'=>'edit post']);
         return view('home');
     }
 }
